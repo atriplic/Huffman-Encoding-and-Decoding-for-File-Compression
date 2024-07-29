@@ -1,0 +1,123 @@
+/*
+ * File Name: HashTableTest.java
+ * Author: Atul Triplicane
+ * Description: This class is used to test the HashTable
+ */
+
+public class HashTableTest {
+
+    public static void main(String[] args) {
+    	HashTable<String,Integer> hash = new HashTable<>();
+        System.out.println(hash.isEmpty());
+        hash.put(" ", 30);
+        hash.put("!", 30);
+        hash.put("\"", 30);
+        hash.put("#", 30);
+        hash.put("$", 30);
+        hash.put("J", 30);
+        hash.put("K", 30);
+        hash.put("L", 30);
+        hash.put("M", 30);
+        hash.put("N", 30);
+        hash.put("O", 30);
+        hash.put("P", 30);
+        hash.put("t", 30);
+        hash.put("u", 30);
+        hash.put("v", 30);
+        hash.put("Q", 30);
+        hash.put("%", 30);
+        hash.put("&", 30);
+        hash.put("'", 30);
+        hash.put("(", 30);
+        hash.put(")", 30);
+        hash.put("*", 30);
+        hash.put("+", 30);
+        hash.put(",", 30);
+        hash.put("-", 30);
+        hash.put(".", 30);
+        hash.put("/", 30);
+        hash.put("0", 30);
+        hash.put("1", 30);
+        hash.put("2", 30);     
+        hash.put("6", 30);
+        hash.put("7", 30);
+        hash.put("8", 30);
+        hash.put("9", 30);  
+        hash.put("A", 30);
+        hash.put("B", 30);
+        hash.put("C", 30);
+        hash.put("D", 30);
+        hash.put("E", 30);
+        hash.put("F", 30);
+        hash.put("G", 30);
+        hash.put("]", 30);
+        hash.put("^", 30);
+        hash.put("_", 30);
+        hash.put("`", 30);
+        hash.put("H", 30);
+        hash.put("I", 30);      
+        hash.put("R", 30);
+        hash.put("S", 30);
+        hash.put("T", 30);
+        hash.put("U", 30);
+        hash.put("V", 30);
+        hash.put("W", 30);
+        hash.put("X", 30);
+        hash.put("Y", 30);
+        hash.put("Z", 30);
+        hash.put("[", 30);
+        hash.put("\\", 30);
+        hash.put("a", 30);
+        hash.put("b", 30);
+        hash.put("x", 30);
+        hash.put("y", 30);
+        hash.put("z", 30);
+        hash.put("{", 30);
+        hash.put("c", 30);
+        hash.put("d", 30);
+        hash.put("e", 30);
+        hash.put("f", 30);
+        hash.put("g", 30);
+        hash.put("h", 30);
+        hash.put(":", 30);
+        hash.put(";", 30);
+        hash.put("<", 30);
+        hash.put("=", 30);
+        hash.put("3", 30);
+        hash.put("4", 30);
+        hash.put("5", 30);
+        hash.put(">", 30);
+        hash.put("?", 30);
+        hash.put("@", 30);
+        hash.put("i", 30);
+        hash.put("n", 30);
+        hash.put("o", 30);
+        hash.put("p", 30);
+        hash.put("q", 30);
+        hash.put("r", 30);
+        hash.put("s", 30);
+        hash.put("w", 30);
+        hash.put("|", 30);
+        hash.put("j", 30);
+        hash.put("k", 30);
+        hash.put("l", 30);
+        hash.put("m", 30);
+        hash.put("}", 30);
+        hash.put("~", 30);
+        hash.put("", 30);
+        hash.printTable();
+        System.out.println(hash.getKey(7));
+        hash.put("k", 30);
+        hash.printTable();
+        System.out.println(hash.remove("H"));
+        hash.printTable();
+        System.out.println(hash.size());
+        hash.remove("C");
+        hash.printTable();
+        System.out.println(hash.getValue("G"));
+        System.out.println(hash.containsValue(1005));
+        System.out.println(hash.keySet());
+        System.out.println(hash.remove("D"));
+        hash.printTable();
+    }
+}

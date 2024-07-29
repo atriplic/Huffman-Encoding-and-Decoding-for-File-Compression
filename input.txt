@@ -1,0 +1,5 @@
+This is a test file for testing the Text file.
+My name is Atul Triplicane.
+My team members are Abhi, Elizabeth, and Maddie.
+We are working on the 345 Huffman Team project.
+Hope this works!
